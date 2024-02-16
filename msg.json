@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "msg": "Enjoy your stay, and let us know if you need anything."
+    },
+    {
+        "id": 2,
+        "msg": "The weather looks great. We hope you will enjoy your stay."
+    },
+    {
+        "id": 3,
+        "msg": "You can check in the front desk for your keys."
+    },
+    {
+        "id": 4,
+        "msg": "Excuse the construction noise, if you have any concerns please reach out to us."
+    },
+    {
+        "id": 5,
+        "msg": "The weather is gloomy but it's all smiles in here. Enjoy your stay!"
+    }
+]

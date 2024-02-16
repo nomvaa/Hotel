@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="app.js" ></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Project - Hotel</title>
+</head>
+<p>
+<div class = "container">
+    <div class="row justify-content-md-center">
+        <h1><span class="badge bg-info">Welcome Staff</span></h1>
+    </div>
+</div>
+<body>
+    <br>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-sm-8">
+                <!--Select Guest Element-->
+                <select id="names">
+                <option value="">--Select Guest--</option></select>
+                </p>
+                <!--Select Hotel Element-->
+                <select id="company">
+                <option value="">--Select Hotel--</option></select>
+                </p>
+                <!--Select Predefined Msg-->
+                <select id="msg">
+                    <option value="">--Select Message--</option></select>
+                </select>
+                
+                <p>
+                <br>
+                <!-- Button to Generate Automated msg -->
+                <button type="button" id="btn1" class="btn btn-warning" value="accept">Generate Automated Msg</button>
+                <br>
+                </p>
+                <!--Space to display automated greeting-->
+                <p id="greeting" class="lead"></p>
+
+                <p class="row justify-content-md-center">------------------------- Or ---------------------------</p>
+                <br>
+                <!-- Button to Generate your own msg -->
+                <input type="text" id="text" placeholder="Enter A Personal Msg"></p>
+                <button class="btn btn-info">Generate Own Message</button>
+                <br>
+                <!--Space to displace generated own msg-->
+                <p id="manual" class="lead"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
