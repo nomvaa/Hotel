@@ -21,8 +21,8 @@ This application is used by hotel staff users to populate customizeable message 
     * Ensure that all required JSON files ('Guests.json', 'Companies.json', and 'msg.json') are present in the same directory as the HTML file containing the code.
 4. Visual Studio Code
     * Open up VS Code and go to file --> Open folder --> locate file
-3. Hotel.html
-    * Right click and open the 'Hotel.html' file on Visual Studio Code with Live server. This should bring you to web brower.
+3. index.html
+    * Right click and open the 'index.html' file on Visual Studio Code with Live server. This should bring you to web brower.
 4. Selection
     * Select a guest name, hotel name and message from the dropdown menus.
 5. Generate
