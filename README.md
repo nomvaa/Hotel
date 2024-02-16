@@ -3,6 +3,8 @@
 
 This application is used by hotel staff users to populate customizeable message templates with information about the guest. It generates a message that greets the guest based on the time the message was generated with their name, hotel name and room number. Addtionally, the application allows user to input their own message to send to the guest with hotel that was selected. 
 
+### See Project Live [here] (https://nomvaa.github.io/Hotel/).
+
 ## Technology Used
 * Javascript
 * HTML 5
